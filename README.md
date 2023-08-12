@@ -28,3 +28,4 @@ To run the application on the server we use the class "SpringBootRestApplication
 The application is configured with Spring Initializr (start.spring.io) using starter packages "Spring Web", "Spring Data JPA" and "MySQL Driver"<br>
 Server support is built in
 <h3>Testing</h3>
+In order to test all CRUD operations using all HTTP methods we resorted to the "Postman" application
