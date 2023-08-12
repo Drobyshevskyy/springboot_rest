@@ -18,6 +18,12 @@ When creating the REST API, we adhered to generally accepted standards:
 | DELETE  | api/employees/{employeeId}  | employee removal |
 
 Settings for connection to the database are specified in the file application.properties (/src/main/resources/application.properties)
+<br><br>
+All CRUD operations are performed using interfaces "EmployeeDAO", "EmployeeService" and classes "EmployeeDAOImpl", "EmployeeServiceImpl" that implements these interfaces
+<br><br>
+Class "MyRESTController" is used for calling methods from "EmployeeService"
+<br><br>
+
 <h3>Configuration</h3>
 The application is configured with Spring Initializr (start.spring.io) using starter packages "Spring Web", "Spring Data JPA" and "MySQL Driver"<br>
 Server support is built in
