@@ -23,7 +23,8 @@ All CRUD operations are performed using interfaces "EmployeeDAO", "EmployeeServi
 <br><br>
 Class "MyRESTController" is used for calling methods from "EmployeeService"
 <br><br>
-
+To run the application on the server we use the class "SpringBootRestApplication" which is created simultaneously with the project creation and gets the name automatically depending on the project name
 <h3>Configuration</h3>
 The application is configured with Spring Initializr (start.spring.io) using starter packages "Spring Web", "Spring Data JPA" and "MySQL Driver"<br>
 Server support is built in
+<h3>Testing</h3>
